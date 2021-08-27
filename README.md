@@ -6,4 +6,8 @@
 
 - [ ] Aplicar responsividade
 
+## Veja
+
+![alt tag](./style/img/final.png)
+
 Bye 👋
