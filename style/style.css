@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("./avenir_ff/AvenirLTStd-Roman.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("./img/heroes.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+}
+
+.btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btn:hover{
+    background: #f9f9f9;
+    color: #000;
+}
+
+img.logo{
+    max-width: 160px;
+}
+
+img.franquias{
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+h1{
+    font-size: 43px;
+    line-height: 53px;
+    color: #f9f9f9;
+    margin: 20px 0 30px 0;
+}
+
+h1 span{
+    display: block;
+}
+
+.hero-content{
+    padding-left: 80px;
+    margin-top: -10px;
+}
+
+.hero-content > p{
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-grid-content:first-child{
+    display: grid;
+}
+
+.hero-grid-content:first-child a{
+    align-self: end;
+}
+
+.hero-grid-content{
+    color: rgba(192, 192, 192, 0.8);
+    width: 300px;
+    max-width: 100%;
+}
+
+.hero-grid-content span{
+    color: #f9f9f9;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.hero-grid-content p:first-child{
+    margin: 0;
+}
+
+.hero-grid-content p{
+    margin: 16px 0px;
+}
+
+.hero-grid-content a{
+    padding: 16.5px 14px;
+    background-color: #0063e5;
+    font-size: 18px;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s ease;
+}
+
+.hero-grid-content a:hover{
+    background: #0483ee;    
+}
+
+
+.hero-grid-content + .hero-grid-content{
+    margin-left: 32px;
+}
