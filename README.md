@@ -8,6 +8,6 @@
 
 ## Veja
 
-![alt tag](./style/img/final.png)
+![alt tag](.style/img/final.png)
 
 Bye 👋
